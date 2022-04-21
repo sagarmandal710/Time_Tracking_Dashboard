@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="icon" type="image" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gridContainer">
+
+        <div id="profile" class="item">
+            <div class="innerProfile">
+                <img src="images/image-jeremy.png"> 
+                <div><h4>Report for</h4>
+                <h1>Jeremy Robson</h1></div>
+            </div>
+            <ul>
+                <li value="1"><h4>Daily</h4></li>
+                <li value="2"><h4>Weekly</h4></li>
+                <li value="3"><h4>Monthly</h4></li>
+            </ul>
+        </div>
+
+        <div id="work" class="item" style="background-image: url(images/icon-work.svg);">
+            <div class="innerBlock">
+                <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                    <h4>Work</h4>
+                    <h2 class="threeDots">...</h2>
+                </div>
+                <div class="timeBlock">
+                    <h1><span contenteditable="true">32</span>hrs</h1> 
+                    <h5>Last <span>week</span> - 36hrs</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="play" class="item" style="background-image: url(images/icon-play.svg);">
+            <div class="innerBlock">
+                <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                    <h4>Play</h4>
+                    <h2 class="threeDots">...</h2>
+                </div>
+                <div class="timeBlock">
+                    <h1><span contenteditable="true">10</span>hrs</h1>
+                    <h5>Last <span>week</span> - 8hrs</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="study" class="item" style="background-image: url(images/icon-study.svg);">
+            <div class="innerBlock">
+                <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                    <h4>Study</h4>
+                    <h2 class="threeDots">...</h2>
+                </div>
+                <div class="timeBlock">
+                    <h1><span contenteditable="true">4</span>hrs</h1>
+                    <h5>Last <span>week</span> - 7hrs</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="exercise" class="item" style="background-image: url(images/icon-exercise.svg);">
+            <div class="innerBlock">
+                <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                    <h4>Exercise</h4>
+                    <h2 class="threeDots">...</h2>
+                </div>
+                <div class="timeBlock">
+                    <h1><span contenteditable="true">4</span>hrs</h1>
+                    <h5>Last <span>week</span> - 5hrs</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="social" class="item" style="background-image: url(images/icon-social.svg);">
+            <div class="innerBlock">
+                <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                    <h4>Social</h4>
+                    <h2 class="threeDots">...</h2>
+                </div>
+                <div class="timeBlock">
+                    <h1><span contenteditable="true">5</span>hrs</h1>
+                    <h5>Last <span>week</span> - 10hrs</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="care" class="item" style="background-image: url(images/icon-self-care.svg);">
+            <div class="innerBlock">
+                <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                    <h4>Self Care</h4>
+                    <h2 class="threeDots">...</h2>
+                </div>
+                <div class="timeBlock">
+                    <h1><span contenteditable="true">2</span>hrs</h1>
+                    <h5>Last <span>week</span> - 2hrs</h5>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
